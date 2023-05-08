@@ -1,117 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>GitHub</title>
-    <link rel="shortcut icon" type="image/svg" href="img/logo.png">
-</head>
-<body>
-<h1>
-    GitHub.
-</h1>
-<h2>
-    list of commands
-</h2>
-<ul>
-    <li>
-        git config --global user.name - <i>
-        встановлює глобально ім'я, яке буде відображатись в полі автора у коммітах, що ви виконуєте
-    </i>
-    </li>
-    <li>
-        git config --system user.name - <i>
-        встановлює системно ім'я, яке буде відображатись в полі автора у коммітах, що ви виконуєте
-    </i>
-    </li>
-    <li>
-        git config user.name - <i>
-        встановлює локально ім'я, яке буде відображатись в полі автора у коммітах, що ви виконуєте
-    </i>
-    </li>
-    <li>
-        git config --global user.email - <i>
-        встановлює електронну адресу, яка буде відображатись в полі автора у коммітах, що ви виконуєте
-    </i>
-    </li>
-    <li>
-        git --version - <i>
-        показує інформацію про версію Git
-    </i>
-    </li>
-    <li>
-        git --v - <i>
-        скорочено від git --version
-    </i>
-    </li>
-    <li>
-        git init - <i>
-        створює новий локальний репозиторій з заданим ім'ям
-    </i>
-    </li>
-    <li>
-        cd ../ - <i>
-        перехід до іншої папки
-    </i>
-    </li>
-    <li>
-        git status - <i>
-        команда, яка використовується для перегляду статусу файлів у вашому локальному репозиторії
-    </i>
-    </li>
-    <li>
-        git add - <i>
-        індексує вказаний файл для послідуючого комміту
-    </i>
-    </li>
-    <li>
-        git add . - <i>
-        індексує всі файли для послідуючого комміту
-    </i>
-    </li>
-    <li>
-        git add -A - <i>
-        індексує всі файли для послідуючого комміту
-    </i>
-    </li>
-    <li>
-        git commit -m 'повідомлення з коротким описом' - <i>
-        фіксує проіндексовані зміни і зберігає їх у історію версій
-    </i>
-    </li>
-    <li>
-        git restore - <i>
-        відміна індексації файлу
-    </i>
-    </li>
-    <li>
-        git rm-cached 'ім'я файлу'- <i>
-        прибирає конкретний файл із контролю версій, але фізично залишає його на своєму місці
-    </i>
-    </li>
-    <li>
-        git remote add origin https://...  - <i>
-        команда використовується для додавання або підключення до віддаленого репозиторію
-    </i>
-    </li>
-    <li>
-        git remote -v - <i>
-        команда для перегляду підключених віддалених репозиторіїв
-    </i>
-    </li>
-    <li>
-        git push --set-upstream origin master
-    </li>
-    <li>
-        git push - <i>
-        завантажує всі зміни локальної гілки до віддаленого репозиторію
-    </i>
-    </li>
-</ul>
-<a href="gallery.html">
-    images
-</a>
-</body>
+    <link rel="shortcut icon" type="image/svg" href="img/logo.png" />
+  </head>
+  <body>
+    <h1>GitHub</h1>
+    <h2>list of commands</h2>
+    <ul>
+      <li>
+        git config --global user.name -
+        <i>
+          встановлює глобально ім'я, яке буде відображатись в полі автора у
+          коммітах, що ви виконуєте
+        </i>
+      </li>
+      <li>
+        git config --system user.name -
+        <i>
+          встановлює системно ім'я, яке буде відображатись в полі автора у
+          коммітах, що ви виконуєте
+        </i>
+      </li>
+      <li>
+        git config user.name -
+        <i>
+          встановлює локально ім'я, яке буде відображатись в полі автора у
+          коммітах, що ви виконуєте
+        </i>
+      </li>
+      <li>
+        git config --global user.email -
+        <i>
+          встановлює електронну адресу, яка буде відображатись в полі автора у
+          коммітах, що ви виконуєте
+        </i>
+      </li>
+      <li>git --version - <i> показує інформацію про версію Git </i></li>
+      <li>git --v - <i> скорочено від git --version </i></li>
+      <li>
+        git init - <i> створює новий локальний репозиторій з заданим ім'ям </i>
+      </li>
+      <li>cd ../ - <i> перехід до іншої папки </i></li>
+      <li>
+        git status -
+        <i>
+          команда, яка використовується для перегляду статусу файлів у вашому
+          локальному репозиторії
+        </i>
+      </li>
+      <li>
+        git add - <i> індексує вказаний файл для послідуючого комміту </i>
+      </li>
+      <li>git add . - <i> індексує всі файли для послідуючого комміту </i></li>
+      <li>git add -A - <i> індексує всі файли для послідуючого комміту </i></li>
+      <li>
+        git commit -m 'повідомлення з коротким описом' -
+        <i> фіксує проіндексовані зміни і зберігає їх у історію версій </i>
+      </li>
+      <li>git restore - <i> відміна індексації файлу </i></li>
+      <li>
+        git rm-cached 'ім'я файлу'-
+        <i>
+          прибирає конкретний файл із контролю версій, але фізично залишає його
+          на своєму місці
+        </i>
+      </li>
+      <li>
+        git remote add origin https://... -
+        <i>
+          команда використовується для додавання або підключення до віддаленого
+          репозиторію
+        </i>
+      </li>
+      <li>
+        git remote -v -
+        <i> команда для перегляду підключених віддалених репозиторіїв </i>
+      </li>
+      <li>git push --set-upstream origin master</li>
+      <li>
+        git push -
+        <i> завантажує всі зміни локальної гілки до віддаленого репозиторію </i>
+      </li>
+    </ul>
+    <div class="link">
+        <a href="gallery.html"> images </a>
+    </div>
+  </body>
 </html>
